@@ -43,6 +43,7 @@ export default {
   .footer-container {
     flex-direction: column; /* Stack elements vertically on small screens */
     padding: 2em; /* Adjust padding for smaller screens */
+    font-size: 0.8em;
   }
   .made-in, .social-links {
     text-align: center; /* Center content for a cleaner look */
