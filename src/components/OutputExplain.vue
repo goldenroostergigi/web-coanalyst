@@ -43,6 +43,7 @@ export default {
   flex-direction: column;
   padding: 1em;
   height: 9em;
+  background-color: #0E1113;
   box-sizing: border-box; /* Ensures padding is included in the total width and height */
   width: calc(25% - 1em); /* Adjusts width taking gap into account */
   border-radius: .7em;
