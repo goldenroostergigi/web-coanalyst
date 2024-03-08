@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap">
     <HeaderComponent />
-    <ContentComponent />
+    <CoverV2 />
+    <!--<ContentComponent />-->
     <ModalComponent />
     <OutputExplain />
-    <InterfaceShow />
     <MoreFeatures />
+    <InterfaceShow />
     <AboutNContact />
     <OurFooter />
   </div>
@@ -19,12 +20,13 @@
 <script setup>
 import HeaderComponent from './components/HeaderComponent.vue';
 import ContentComponent from './components/OtherComponent.vue';
+import CoverV2 from './components/CoverV2.vue';
 import ModalComponent from './components/ModalComponent.vue';
 import OutputExplain from './components/OutputExplain.vue';
 import MoreFeatures from './components/MoreFeatures.vue';
 import AboutNContact from './components/AboutNContact.vue';
 import OurFooter from './components/OurFooter.vue';
-import InterfaceShow from './components/InterfaceShow.vue';
+import InterfaceShow from './components/InterfaceShowV2.vue';
 </script>
 
 

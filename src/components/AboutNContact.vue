@@ -3,12 +3,12 @@
     <div class="card">
       <span>Sobre Nosotros</span>
       <div>
-        <span class="text-card" id="sobre">CoAnalyst es el primer producto lanzado por Iurexa.</span>
+        <span class="text-card" id="sobre">CoAnalyst es el primer producto de Iurexa.</span>
       </div>
     </div>
     <div class="card">
       <span>Contáctanos</span>
-      <div><a class="text-card" id="contacto">Enviamos un correo a info@iurexa.com</a></div>
+      <div><a class="text-card" id="contacto">Envíamos un correo a info@iurexa.com</a></div>
     </div>
   </div>
 </template>
@@ -31,7 +31,7 @@ export default {
 .card {
   display: flex;
   flex-direction: column;
-  background-color: #0E1113;
+  background-color: #000;
   padding: 1em;
   height: 9em;
   box-sizing: border-box; /* Ensures padding is included in the total width and height */
