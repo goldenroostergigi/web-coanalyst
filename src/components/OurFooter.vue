@@ -44,13 +44,22 @@ export default {
     flex-direction: column; /* Stack elements vertically on small screens */
     padding: 2em; /* Adjust padding for smaller screens */
     font-size: 0.8em;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
   }
   .made-in, .social-links {
     text-align: center; /* Center content for a cleaner look */
+    text-align: center;
+    justify-items: center;
+    align-items: center;
     width: 100%; /* Use full width */
   }
   .social-links {
     margin-top: 1em; /* Add some space between the text and the links */
+    text-align: center;
+    justify-items: center;
+    align-items: center;
   }
 }
 </style>
