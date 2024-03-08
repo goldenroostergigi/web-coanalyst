@@ -1,10 +1,12 @@
 <template>
   <div class="footer-container">
     <div class="made-in">Made in Mexico City. 2024.</div>
-    <div class="social-links">
-      <a href="https://www.lesswrong.com" class="link">LessWrong</a> |
-      <a href="https://twitter.com" class="link">Twitter</a> |
-      <a href="https://instagram.com" class="link">Instagram</a>
+    <div class="social-links-container">
+      <div class="social-links">
+        <a href="https://www.lesswrong.com" class="link">LessWrong</a> |
+        <a href="https://twitter.com" class="link">Twitter</a> |
+        <a href="https://instagram.com" class="link">Instagram</a>
+      </div>
     </div>
   </div>
 </template>
@@ -41,25 +43,21 @@ export default {
 
 @media (max-width: 768px) {
   .footer-container {
-    flex-direction: column; /* Stack elements vertically on small screens */
-    padding: 2em; /* Adjust padding for smaller screens */
+    flex-direction: column;
+    padding: 2em;
     font-size: 0.8em;
-    text-align: center;
-    justify-items: center;
-    align-items: center;
+    align-items: center; /* Center items horizontally */
   }
-  .made-in, .social-links {
-    text-align: center; /* Center content for a cleaner look */
-    text-align: center;
-    justify-items: center;
-    align-items: center;
-    width: 100%; /* Use full width */
+  .made-in, .social-links-container, .social-links {
+    width: 100%;
+    justify-content: center; /* This will center the flex items horizontally */
+    text-align: center; /* Center the text for each link */
   }
   .social-links {
     margin-top: 1em; /* Add some space between the text and the links */
-    text-align: center;
-    justify-items: center;
-    align-items: center;
+    display: flex; /* Ensure this is a flex container */
+    justify-content: center; /* Center flex items (links) */
   }
 }
+
 </style>
