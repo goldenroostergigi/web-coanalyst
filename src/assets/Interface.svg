@@ -71,10 +71,10 @@
 <path d="M95 610C97.2091 610 99 608.209 99 606C99 603.791 97.2091 602 95 602C92.7909 602 91 603.791 91 606C91 608.209 92.7909 610 95 610Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="94.5" cy="531.5" r="22.5" fill="#191E21"/>
 <path d="M91 538L97 532L91 526" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="189" y="437" width="659" height="272" fill="url(#paint0_linear_365_194)"/>
+<rect y="526" width="1169" height="183" fill="url(#paint0_linear_365_194)"/>
 </g>
 <defs>
-<linearGradient id="paint0_linear_365_194" x1="518.5" y1="437" x2="518.5" y2="709" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_365_194" x1="584.5" y1="526" x2="584.5" y2="709" gradientUnits="userSpaceOnUse">
 <stop stop-opacity="0"/>
 <stop offset="0.84"/>
 </linearGradient>
