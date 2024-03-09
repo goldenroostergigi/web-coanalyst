@@ -8,7 +8,7 @@
     </div>
     <div class="card">
       <span>Análisis Legal</span>
-      <div><a class="text-card">Hemos estado desarrollando un sistema que expande las capacidades de los sistemas cognitivos para entender la ley Méxicana. Puedes plantearle problemas complejos y te responderá de manera comprehensiva.</a></div>
+      <div><a class="text-card">Hemos estado desarrollando un sistema que expande las capacidades de los sistemas cognitivos para entender la ley Mexicana. Puedes plantearle problemas complejos y te responderá de manera comprehensiva.</a></div>
     </div>
   </div>
 </template>
