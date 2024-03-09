@@ -5,7 +5,7 @@
                 Analiza cualquiera cosa, en cualquier archivo, en segundos.
             </span>
             <p>
-                Identifica patrones, encuentra información, sintetiza datos, resuelve problemas.
+               Importa tus documentos e identifica patrones, encuentra información, sintetiza datos, resuelve problemas.
             </p>
         </div>
 
